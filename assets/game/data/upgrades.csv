@@ -1,0 +1,28 @@
+"id","type","level","value","description"
+"health1","health",3,1.2,"Health +20"
+"health2","health",5,1.4,"Health +40"
+"health3","health",9,1.6,"Health +60"
+"health4","health",11,1.8,"Health +80"
+"health5","health",13,2,"Health +100"
+,,,,
+"ranged_dmg1","ranged_dmg",,1.1,
+"ranged_dmg2","ranged_dmg",,1.2,
+"ranged_dmg3","ranged_dmg",,1.3,
+,,,,
+"melee_dmg1","melee_dmg",,1.1,
+"melee_dmg2","melee_dmg",,1.2,
+"melee_dmg3","melee_dmg",,1.3,
+,,,,
+"charge_dmg1","charge_dmg",,1.1,
+"charge_dmg2","charge_dmg",,1.2,
+,,,,
+"charge_lvl1","charge_lvl",,1,
+"charge_lvl2","charge_lvl",,2,
+,,,,
+"ranged_rng","ranged_rng",,100,
+"charge_rng","charge_rng",,2,
+,,,,
+"//wall_jump","wall_jump",4,,"Wall Jump"
+"double_jump","double_jump",7,,"Double Jump"
+"air_dash","air_dash",10,,"Air Dash"
+"avatar_state","avatar_state",12,,"Avatar State"

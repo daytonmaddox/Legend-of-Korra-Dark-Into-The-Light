@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website name="viacom usa - nickelodeon - korra" title="viacom usa - nickelodeon - korra: %PAGE%" menu="false" width="960" height="500" fps="60" bgColor="#FFFFFF" pubPath="root/inc/swf" rootPath="root" pageBasePackage="com.mediamonks.pages" srcPath="source">
+	<page id="index" pck="index" src="index.swf" fla="index" title="index">
+		<asset id="shared" src="shared.swf" domain="current" preload="{isrelease}"/>
+		<asset id="shared_assets" src="shared_assets.swf" domain="current"/>
+		<asset id="fonts" src="fonts.swf" domain="current" ignoreonbuild="true"/>
+		
+		<asset id="engine" src="temple_engine.swf" domain="current" ignoreonbuild="true"/>
+		
+		<asset id="home_cache" src="home.swf" type="bytearray" ignoreonbuild="true" />
+		<asset id="navigation_cache" src="navigation.swf" type="bytearray" ignoreonbuild="true" />
+		<asset id="game_cache" src="game.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="background_cache" src="background.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="dashboard_cache" src="dashboard.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="world_map_cache" src="world_map.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="progress_cache" src="progress.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="enter_code_cache" src="enter_code.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="unlocked_content_cache" src="unlocked_content.swf" type="bytearray" ignoreonbuild="true"/>
+		<asset id="level_info" src="../xml/levels_info_2193417.xml" domain="current" ignoreonbuild="true"/>
+		<asset id="messages" src="../xml/messages_2193417.xml" domain="current" ignoreonbuild="true"/>
+		
+		<page id="navigation" depth="top" pck="navigation" src="navigation.swf" fla="navigation" title="navigation">
+			<page id="home" menu="true" pck="home" src="home.swf" fla="home" title="splash screen"/>
+			<page id="game" pck="game" src="game.swf" fla="game" title="game"/>
+			<page id="background" pck="background" src="background.swf" fla="background" title="background">
+				<page id="dashboard" pck="dashboard" src="dashboard.swf" fla="dashboard" title="dashboard"/>
+				<page id="world_map" pck="world_map" src="world_map.swf" fla="world_map" title="world_map"/>
+				<page id="enter_code" pck="enter_code" src="enter_code.swf" fla="enter_code" title="enter_code"/>
+				<page id="progress" pck="progress" src="progress.swf" fla="progress" title="progress"/>
+				<page id="unlocked_content" pck="unlocked_content" src="unlocked_content.swf" fla="unlocked_content" title="unlocked_content"/>
+			</page>
+		</page>
+	</page>
+</website>

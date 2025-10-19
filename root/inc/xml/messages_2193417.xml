@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<!-- 
+		Definition: 
+		
+		<message id="{popupId & optional framelabel in Message}" character="{character_framelabel}" characterName="{character_name}">
+			<content>{message}</content>
+		</message>
+	 -->
+	 
+	<message id="tutorial_a" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[Korra! You can move around using]]></content>
+	</message>
+	
+	<message id="tutorial_a2" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[You can also use ]]></content>
+	</message>
+	
+	<message id="tutorial_b" character="tenzin_worried" character_name="Tenzin">
+		<content><![CDATA[Jump over that ledge! <strong>press</strong>]]></content>
+	</message>
+	
+	<message id="tutorial_c"  character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[Use waterbending to attack close range. <strong>Click close to yourself</strong>, when the cursor turns blue.]]></content>
+	</message>
+	
+	<message id="tutorial_d" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[You can also waterbend while jumping.]]></content>
+	</message>
+	
+	<message id="tutorial_e" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[Earthbend to unleash a charge attack. <strong>Click and hold for 2 seconds</strong>, then release.]]></content>
+	</message>
+
+	<message id="tutorial_f" character="tenzin_worried" character_name="Tenzin">
+		<content><![CDATA[The path is blocked! <strong>Press</strong>                       to pass through enemies using airbending.]]></content>
+	</message>
+	
+	<message id="tutorial_g" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[Use firebending to attack enemies that are far away! <strong>Click far from yourself</strong>, when the cursor turns red.]]></content>
+	</message>
+
+	<message id="tutorial_h" character="tenzin_worried" character_name="Tenzin">
+		<content><![CDATA[If things get too tough, find these fountains to heal yourself.]]></content>
+	</message>
+	
+	<message id="tutorial_i" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[To exit this stage, find the Water Tribe emblem. Good luck, Avatar!]]></content>
+	</message>
+
+	<message id="tutorial_j" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[Well done Korra! You've discovered a secret area! Remember to look for more.]]></content>
+	</message>
+	
+	<message id="level_02_start" character="tenzin_worried" character_name="Tenzin">
+		<content><![CDATA[Complete more missions to level up, and gain new abilities!]]></content>
+	</message>
+	
+	<message id="tutorial_walljump" character="tenzin_severe" character_name="Tenzin">
+		<content><![CDATA[Korra, you can jump against a wall to climb it!]]></content>
+	</message>	
+	
+	<message id="unalaq_battle_1" character="unalaq_calm" character_name="Unalaq">
+		<content><![CDATA[You cannot defeat me, Avatar. The physical and spiritual realms will soon be reunited by darkness!]]></content>
+	</message>
+	
+	<message id="unalaq_battle_2" character="unalaq_calm" character_name="Unalaq">
+		<content><![CDATA[I am the one, true Avatar!]]></content>
+	</message>
+	
+	<message id="unalaq_battle_3" character="unalaq_calm" character_name="Unalaq">
+		<content><![CDATA[Give in. Your time is over!]]></content>
+	</message>
+	
+	<message id="unalaq_battle_4" character="unalaq_calm" character_name="Unalaq">
+		<content><![CDATA[You cannot win!]]></content>
+	</message>
+</data>

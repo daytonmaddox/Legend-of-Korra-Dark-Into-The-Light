@@ -1,0 +1,35 @@
+"id","exit","type","description","code","level","required","time","defeat","flavor","collect","damage","find","camera"
+"complete","next","complete","Complete this stage",,,,,,,,,,
+,,,,,,,,,,,,
+"time1","exit","time","Complete this stage in [t]",,,"complete",1.5,,,,,,
+"defeat1","exit","defeat","Defeat [d] enemies in this stage",,,"complete",,0.8,,,,,
+"coins1","exit","collect","Collect [c] energy orbs in this stage",,,"complete",,,,0.4,,,
+"time2","exit","time","Complete this stage in [t]",,,,1.3,,,,,,
+"defeat2","exit","defeat","Defeat [d] enemies in this stage,<br>in [t]",,,,3,0.8,,,,,
+"coins2","exit","collect","Collect [c] energy orbs in this stage,<br>in [t]",,,,2.5,,,0.6,,,
+"time3","exit","time","Complete this stage in [t]",,,,1,,,,,,
+"defeat3","exit","defeat","Defeat [d] enemies in this stage,<br>in [t]",,,,3,1,,,,,
+"coins3","exit","collect","Collect [c] energy orbs in this stage",,,,,,,1,,,
+"coins4","exit","collect","Collect [c] energy orbs in this stage,<br>in [t]",,,,2.5,,,1,,,
+"defeat4","exit","defeat","Defeat [d] enemies in this stage, taking no damage",,,,,0.5,,,0,,
+,,,,,,,,,,,,
+"nuktuk_complete1","next","nuktuk_complete","Complete this stage, EASY",,"Level_04_Nuktuk_Hero_of_the_South_1",,,,,,,,135
+"nuktuk_complete2","exit","nuktuk_complete","Complete this stage, MEDIUM",,"Level_04_Nuktuk_Hero_of_the_South_1",,,,,,,,150
+"nuktuk_complete3","exit","nuktuk_complete","Complete this stage, HARD",,"Level_04_Nuktuk_Hero_of_the_South_1",,,,,,,,180
+"nuktuk_complete4","exit","nuktuk_complete","Complete this stage, taking no damage",,"Level_04_Nuktuk_Hero_of_the_South_1",,,,,,0,,180
+"nuktuk_collect1","exit","nuktuk_collect","Collect [c] energy orbs in this stage, EASY",,"Level_04_Nuktuk_Hero_of_the_South_1","nuktuk_complete1",,,,0.75,,,135
+"nuktuk_collect2","exit","nuktuk_collect","Collect [c] energy orbs in this stage, MEDIUM",,"Level_04_Nuktuk_Hero_of_the_South_1",,,,,0.875,,,150
+"nuktuk_collect3","exit","nuktuk_collect","Collect [c] energy orbs in this stage, HARD",,"Level_04_Nuktuk_Hero_of_the_South_1",,,,,1,,,180
+,,,,,,,,,,,,
+"finale_defeat1","exit","finale_defeat","Stop the Dark Avatar!",,"Level_10_Finale",,,,,,,,
+,,,,,,,,,,,,
+"episode1","next","special","Find the stuffed [f] and earn 100 energy orbs!","EEFFA","Level_02_South_Pole_1","complete",,,,,,"Appa",
+"episode2","next","special","Find the stuffed [f] and earn 100 energy orbs!","AFEAW","Level_02_South_Pole_2","complete",,,,,,"Appa",
+"episode3","next","special","Find the stuffed [f] and earn 100 energy orbs!","WWEAF","Level_03_Prison_Break","complete",,,,,,"Poki",
+"episode4","next","special","Find Tenzin in [t] and earn 100 energy orbs!","EWAFF","Level_01_Tutorial","complete",0.5,,,,,"Tenzin",
+"episode5","next","nuktuk_special","Collect [c] energy orbs in this stage, taking no damage!","FAWAF","Level_04_Nuktuk_Hero_of_the_South_1","nuktuk_complete1",,,,1,0,,180
+"episode6","next","special","Defeat [d] enemies using melee attacks, in [t]!","EAFFW","Level_05_Beginnings_1","complete",1.5,0.5,"melee",,,,
+"episode7","next","special","Defeat [d] enemies while in avatar state!","AWWFE","Level_06_Beginnings_2","complete",,0.076,"avatarstate",,,,
+"episode8","next","special","Find the stuffed [f] and collect [c] energy orbs!","FWEFA","Level_08_Spirit_World","complete",,,,1,,"Poki",
+"episode9","next","special","Defeat the lizard Spirit!","WFAEA","Level_07_Eastern_Air_Temple","complete",,,,,,"Lizard",
+"episode10","exit","special","Stop the Dark Avatar in [t]!","EWEFA","Level_10_Finale","finale_defeat1",1,,,,,,

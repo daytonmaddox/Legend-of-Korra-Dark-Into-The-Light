@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urls currentgroup="local">
+	<!-- 
+		Put all your project urls in this file
+		Put global urls outside a group node (same for all environments)
+		Put environment specific url's inside a group node
+		Change the 'currentgroup' to the environment you want to use
+		
+		NOTE: Always check this file on deployment!!  
+	-->
+	
+	<group id="local">
+	</group>
+	
+	<group id="live">
+		<url name="gateway" url="api/rest.php" />
+	</group>
+
+	<url name="playnomics_api" url="//api.a.playnomics.net" />
+	<url name="app" url="http://www.nick.com/app/" />
+	<url name="media_thumbnail" url="../img/{id}_thumb.jpg" />
+	<url name="media_site" url="../img/{id}_site.jpg" />
+	<url name="media_full" url="../img/{id}_full.jpg" />
+	
+</urls>

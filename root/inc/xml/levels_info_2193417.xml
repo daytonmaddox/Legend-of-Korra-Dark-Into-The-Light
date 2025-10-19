@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<!-- 
+		Definition: 
+		
+		<level id="{1-999}" element="water|air|earth|fire">
+			<title>{text}</title>
+			<location>{text}</location>
+			<dialog>
+				<character side="left|right" character="{character_framelabel}" name="{character_name}">{message}</character>
+				<character side="left|right" character="{character_framelabel}" name="{character_name}">{message}</character>
+			</dialog>
+		</level>
+	 -->
+
+	<level id="1" element="water">
+		<title>Tutorial</title>
+		<location>South Pole</location>
+		<content>Learn the basics and get ready to become the greatest Avatar of all time!</content>
+		<dialog>
+			<character side="left" character="tenzin_severe" name="Tenzin">Korra! Clearly you need more training to grasp the depths of your spiritual connections!</character>
+			<character side="right" character="korra_annoyed" name="Korra">I'm the Avatar! And I have complete control over my powers. I'll prove it!</character>
+		</dialog>
+	</level>
+	
+	
+	<level id="2" element="water">
+		<title>Rebel Spirit</title>
+		<location>South Pole</location>
+		<content>Korra begins her journey to restore the balance with the Spirits. Unexpected creatures appear along the way!</content>
+		<dialog>
+			<character side="left" character="unalaq_calm" name="Unalaq">We are going to one of the most remote places in the world: the South Pole.</character>
+			<character side="right" character="korra_happy" name="Korra">A dangerous trip to the South Pole? &#10;No meditating? Count me in!</character>
+		</dialog>
+	</level>
+	
+	
+	<level id="3" element="water">
+		<title>The Southern Lights</title>
+		<location>South Pole</location>
+		<content>Spirits! Join Korra as she moves in deeper into the South Pole</content>
+		<dialog>
+			<character side="left" character="korra_severe" name="Korra">It is my job to be the bridge between the spirits and the physical world. I will live up to my potential!</character>
+			<character side="right" character="unalaq_calm" name="Unalaq">Indeed. We must hurry to the Spirit Portal. The solstice is tonight.</character>
+		</dialog>
+	</level>
+	
+	<level id="4" element="water">
+		<title>Civil Wars</title>
+		<location>Prison</location>
+		<content>When Korra’s parents are wrongfully arrested, Korra fights for their freedom.</content>
+		<dialog>
+			<character side="left" character="korra_angry" name="Korra">I can't believe I trusted Unalaq! I'm busting my father and the Rebels out of jail.</character>
+			<character side="right" character="mako_severe" name="Mako">If you do this, there's no going back... but of course I'll help.</character>
+		</dialog>
+	</level>
+	
+	<level id="5" element="air">
+		<title>The Adventures of Nuktuk</title>
+		<location>Republic City</location>
+		<content>Join Bolin in the making of his first movie, fighting the forces of the North.</content>
+		<dialog>
+			<character side="left" character="varrick_happy" name="Varrick">No one will root for the North after they see "The Adventures of Nuktuk: Hero of the South"!</character>
+			<character side="right" character="bolin_happy" name="Bolin">I'm a movie superstar! Nuktuk, a man of action but with a heart of gold!</character>
+		</dialog>
+	</level>
+	
+	<level id="6" element="water">
+		<title>Beginnings Part 1</title>
+		<location>Wan's Memories</location>
+		<content>As Korra learns about the mythic origins of the first Avatar, she realizes what must be done in order to restore balance between the physical and spirit worlds.</content>
+		<dialog>
+			<character side="left" character="korra_serious" name="Korra">What is this place? It doesn't seem real... Wan said he was going to show me how he became the first Avatar. Is this a vision of his memories..?</character>
+		</dialog>
+	</level>
+	
+	<level id="7" element="air">
+		<title>Beginnings Part 2</title>
+		<location>Wan's Memories</location>
+		<content>Korra must escape Wan’s memories before the Harmonic Convergence, to stop Unalaq and the dark spirit Vaatu from changing the world forever.</content>
+		<dialog>
+			<character side="left" character="korra_serious" name="Korra">I can see it in my vision... Lion Turtles and... the origin of bending arts?</character>
+		</dialog>
+	</level>
+	
+	<level id="8" element="fire">
+		<title>A New Spiritual Age</title>
+		<location>Spirit World</location>
+		<content>Korra has entered the Spirit World for the first time, but can she close the Spirit Portal before Unalaq finds her?</content>
+		<dialog>
+			<character side="left" character="korra_severe" name="Korra">Tenzin, Harmonic Convergence is almost here! We have to get into the Spirit World!</character>
+			<character side="right" character="tenzin_worried" name="Tenzin">There's a lot of spiritual energy in this place... but it feels really strange.</character>
+		</dialog>
+	</level>
+	
+	<level id="9" element="air">
+		<title>The Guide</title>
+		<location>Spirit World</location>
+		<content>Korra must make her way through the Air Temple and warn the President of Unalaq’s plan before it’s too late!</content>
+		<dialog>
+			<character side="left" character="korra_angry" name="Korra">Spirits! I'm looking for the portals, don't stand in my way!</character>
+			<character side="right" character="jinora_worried" name="Jinora">Korra, you have to calm down... your energy is upsetting them!</character>
+		</dialog>
+	</level>
+	
+	<level id="10" element="earth">
+		<title>Light in the Dark</title>
+		<location>LOCATION 10 NAME</location>
+		<content>Korra must keep Unalaq from merging with Vaatu, or risk 10,000 years of darkness. Can she defeat him before it’s too late?</content>
+		<dialog>
+			<character side="left" character="unalaq_calm" name="Unalaq">You’re too late, Avatar. Harmonic Convergence is upon us again, nothing could stop me now.</character>
+			<character side="right" character="korra_severe" name="Korra">Enough talk. Let’s fight!</character>
+		</dialog>
+	</level>
+	
+</data>
