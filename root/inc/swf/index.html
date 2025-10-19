@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Flash Game (Ruffle)</title>
+
+  <!--
+    Configure Ruffle to load its .wasm runtime from a CDN.
+    This helps avoid webserver MIME-type problems (GitHub Pages sometimes causes issues).
+    You can remove/modify wasm_path if you host ruffle.wasm yourself.
+  -->
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    // Use jsDelivr CDN copy of ruffle's wasm — change if you want to self-host.
+    window.RufflePlayer.config = {
+      wasm_path: "https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle/dist/ruffle.wasm"
+    };
+  </script>
+
+  <!-- Ruffle web runtime (CDN). Keeps you up-to-date automatically. -->
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+  <style>
+    html,body { height:100%; margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:#111; color:#eee; display:flex; align-items:center; justify-content:center; }
+    .container { max-width:100%; width:960px; padding:16px; text-align:center; }
+    .player-wrap { background:#000; display:inline-block; border:1px solid #333; }
+    .meta { margin-top:12px; font-size:14px; color:#bbb; }
+    a { color:#7ccfff; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Flash Game</h1>
+
+    <!--
+      Replace width/height with your game's native resolution.
+      Ruffle will polyfill <object> and load main.swf.
+      If your loader HTML previously used <embed> or an element with specific params,
+      you can adapt that here (see Ruffle docs).
+    -->
+    <div class="player-wrap" id="game">
+      <object data="main.swf" type="application/x-shockwave-flash" width="960" height="600">
+        <!-- Fallback for very old browsers -->
+        <p>Your browser does not support Flash. If you see this, try a modern browser with WebAssembly support.</p>
+      </object>
+    </div>
+
+    <div class="meta">
+      <p>If your SWF uses external assets (in /assets or /roots), make sure those files keep their same relative paths in the repo.</p>
+      <p>After pushing to GitHub, go to Settings → Pages and enable Pages for this branch/folder. Then open the Pages URL on your iPhone.</p>
+    </div>
+  </div>
+
+  <!-- Optional: small script to log Ruffle status to console -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.RufflePlayer && window.RufflePlayer.newest) {
+        console.log("Ruffle loaded. Version:", window.RufflePlayer.version || "unknown");
+      } else {
+        console.warn("Ruffle not available — check network and wasm_path.");
+      }
+    });
+  </script>
+</body>
+</html>
